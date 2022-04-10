@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    grid-area: header;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 174, 0);
+    height: 40px;
+    padding-left: 50px;
+}
+
+div.box > h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 2px black;
+}
+
+header.header > .login {
+    color: white;
+    text-shadow: 0 0 1px rgb(139, 33, 0);
+    padding-right: 20px;
+    font-size: 14pt;
+}
